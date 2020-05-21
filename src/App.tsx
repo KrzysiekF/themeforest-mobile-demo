@@ -8,7 +8,7 @@ import './assets/styles/styles.scss';
 function App() {
   return (
     <Router>
-      <ul className={'demo'}>
+      <ul className={'demo'} style={{ display: 'none' }}>
         <li>
           <Link to="/">Home Page</Link>
         </li>
