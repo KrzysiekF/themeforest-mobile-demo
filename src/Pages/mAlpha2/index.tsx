@@ -10,7 +10,10 @@ const mAlpha2Page: React.FC = () => {
     };
 
     const goToShop = () => {
-        window.location.href = site.shopURL;
+        window.open(
+            site.shopURL,
+            '_blank'
+        );
     };
 
     return (
